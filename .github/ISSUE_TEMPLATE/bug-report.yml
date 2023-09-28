@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a bug
-# labels: ["bug"]
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
@@ -36,7 +36,7 @@ body:
       label: Put here any screenshots or videos (optional)
 
   - type: dropdown
-    id: platfrom
+    id: platform
     attributes:
       label: What platform are you seeing the problem on?
       multiple: true
